@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://twitter.com/morphic_ai" target="_blank">
+          <Link href="https://twitter.com/cogify.social" target="_blank">
             <SiTwitter size={18} />
           </Link>
         </Button>
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://git.new/morphic" target="_blank">
+          <Link href="https://cogify.social" target="_blank">
             <SiGithub size={18} />
           </Link>
         </Button>

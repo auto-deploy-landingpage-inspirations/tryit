@@ -1,4 +1,4 @@
-# (Try.cogify.social)[https://try.cogify.social]
+# [Try.cogify.social](https://try.cogify.social)
 
 An AI-powered search engine with a generative UI.
 

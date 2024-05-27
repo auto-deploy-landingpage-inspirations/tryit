@@ -1,12 +1,10 @@
-# Morphic
+# (Try.cogify.social)[https://try.cogify.social]
 
 An AI-powered search engine with a generative UI.
 
 ![capture](/public/capture-240404_blk.png)
 
-### Note
 
-Please note that there are differences between this repository and the official website [morphic.sh](morphic.sh). The official website is a fork of this repository with additional features such as authentication, which are necessary for providing the service online. The core source code of Morphic resides in this repository, and it's designed to be easily built and deployed. When using Morphic, please keep in mind the different roles of the repository and the website.
 
 ## 🔍 Overview
 
@@ -43,13 +41,13 @@ Please note that there are differences between this repository and the official 
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```
-git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/morphic.git
+git clone https://github.com/Shubham-sharma8/tryit
 ```
 
 ### 2. Install dependencies
 
 ```
-cd morphic
+cd tryit
 bun install
 ```
 
@@ -105,12 +103,4 @@ Host your own live version of Morphic with Vercel or Cloudflare Pages.
 6. Cancel deployment, go to `Settings` -> `Functions` -> `Compatibility flags`, add `nodejs_compat` to preview and production.
 7. Redeploy.
 
-**The build error needs to be fixed: [issue](https://github.com/miurla/morphic/issues/114)**
 
-## ✅ Verified models
-
-List of verified models that can be specified to writers.
-
-- [Groq](https://console.groq.com/docs/models)
-  - LLaMA3 8b
-  - LLaMA3 70b
